@@ -10,7 +10,11 @@
 <body style="margin : 0px; overflow: hidden;">
 <a-scene embedded arjs>
     <a-marker preset="hiro">
-        <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" animation-mixer/>
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="5 0 0" rotation="0 0 0" scale="0.05 0.05 0.05" animation-mixer/>
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="-5 0 0" rotation="0 0 0" scale="0.05 0.05 0.05" animation-mixer/>
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="0 5 0" rotation="0 0 0" scale="0.05 0.05 0.05" animation-mixer/>
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="0 -5 0" rotation="0 0 0" scale="0.05 0.05 0.05" animation-mixer/>
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="0 0 0" rotation="0 0 0" scale="0.05 0.05 0.05" animation-mixer/>
     </a-marker>
     <a-entity camera></a-entity>
 </a-scene>
