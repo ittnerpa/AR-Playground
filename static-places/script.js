@@ -1,10 +1,10 @@
 
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    document.getElementsByClassName("left").addEventListener("click", () => moveObject(-1, 0, 0));
-    document.getElementsByClassName("right").addEventListener("click", () => moveObject(1, 0, 0));
-    document.getElementsByClassName("bottom").addEventListener("click", () => moveObject(0, -1, 0));
-    document.getElementsByClassName("up").addEventListener("click", () => moveObject(0, 1, 0));
+    document.getElementById("left").addEventListener("click", () => moveObject(-1, 0, 0));
+    document.getElementById("right").addEventListener("click", () => moveObject(1, 0, 0));
+    document.getElementById("bottom").addEventListener("click", () => moveObject(0, -1, 0));
+    document.getElementById("up").addEventListener("click", () => moveObject(0, 1, 0));
 
     button.innerText = '﹖';
 
