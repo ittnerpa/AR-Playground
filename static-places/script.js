@@ -1,3 +1,4 @@
+let position = [0,0,0]
 
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
@@ -16,7 +17,6 @@ window.onload = () => {
 function moveObject(x, y, z) {
     let element = document.querySelector('a-entity');
     //let position = element.getAttribute("position").split(" ");
-    let position = [0,0,0]
 
     console.log("moveObject", position, element, x, y)
     if(x === 1) {
