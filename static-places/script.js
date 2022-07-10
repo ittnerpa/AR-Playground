@@ -15,6 +15,7 @@ window.onload = () => {
 function moveObject(x, y, z) {
     let element = document.querySelector('a-entity');
     let position = element.getAttribute("position").split(" ");
+    console.log("moveObject", position, element, x, y)
     if(x === 1)
         element.setAttribute("position", `${position[0]+1} ${position[1]} ${position[2]}`)
     else if (x === -1)
