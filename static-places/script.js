@@ -19,14 +19,17 @@ function moveObject(x, y, z) {
     let position = [0,0,0]
 
     console.log("moveObject", position, element, x, y)
-    if(x === 1)
-        element.setAttribute("position", `${position[0]+1} ${position[1]} ${position[2]}`)
-    else if (x === -1)
-        element.setAttribute("position", `${position[0]-1} ${position[1]} ${position[2]}`)
-    else if (y === 1)
-        element.setAttribute("position", `${position[0]} ${position[1]+1} ${position[2]}`)
-    else if (y === -1)
-        element.setAttribute("position", `${position[0]} ${position[1]-1} ${position[2]}`)
+    if(x === 1) {
+        position[0] += 1
+    }    else if (x === -1) {
+        position[0] -= 1
+    }    else if (y === 1) {
+        position[1] += 1
+    }    else if (y === -1) {
+        position[1] -= 1
+    }
+    element.setAttribute("position", `${position[0]} ${position[1]} ${position[2]}`)
+
 }
 
 function staticLoadPlaces() {
