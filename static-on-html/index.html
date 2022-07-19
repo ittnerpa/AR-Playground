@@ -7,12 +7,14 @@
 <script>
     THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
 </script>
-<body style="margin : 0px; overflow: hidden;">
 <a-scene embedded arjs>
     <a-marker preset="hiro">
-        <a-entity obj-model="./assets/Testexport2.obj" ></a-entity>
+        <!--<a-entity obj-model="./assets/Testexport2.obj" ></a-entity>-->
         <!--<a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" animation-mixer/>-->
-
+        <a-entity
+                obj-model="obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj);
+            mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)">
+        </a-entity>
     </a-marker>
     <a-entity camera></a-entity>
 </a-scene>
