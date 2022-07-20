@@ -1,0 +1,65 @@
+﻿newmtl DefaultMaterial
+	map_Kd DefaultMaterial_D.bmp
+	map_Ks DefaultMaterial_S.bmp
+	bump DefaultMaterial_N.bmp
+
+newmtl MI_CineMat_CameraBody
+	map_Kd MI_CineMat_CameraBody_D.bmp
+	map_Ks MI_CineMat_CameraBody_S.bmp
+	bump MI_CineMat_CameraBody_N.bmp
+
+newmtl MI_CineMat_CamViewFinder
+	map_Kd MI_CineMat_CamViewFinder_D.bmp
+	map_Ks MI_CineMat_CamViewFinder_S.bmp
+	bump MI_CineMat_CamViewFinder_N.bmp
+
+newmtl MI_ArrowColorGrey
+	map_Kd MI_ArrowColorGrey_D.bmp
+	map_Ks MI_ArrowColorGrey_S.bmp
+	bump MI_ArrowColorGrey_N.bmp
+
+newmtl MI_ArrowColorRed
+	map_Kd MI_ArrowColorRed_D.bmp
+	map_Ks MI_ArrowColorRed_S.bmp
+	bump MI_ArrowColorRed_N.bmp
+
+newmtl MI_Modular_Building_Window_wdhifg2dw_8K
+	map_Kd MI_Modular_Building_Window_wdhifg2dw_8K_D.bmp
+	map_Ks MI_Modular_Building_Window_wdhifg2dw_8K_S.bmp
+	bump MI_Modular_Building_Window_wdhifg2dw_8K_N.bmp
+
+newmtl MI_Modular_Building_4th_Floor_Pillar_Kit_wdhjfbqdw_8K
+	map_Kd MI_Modular_Building_4th_Floor_Pillar_Kit_wdhjfbqdw_8K_D.bmp
+	map_Ks MI_Modular_Building_4th_Floor_Pillar_Kit_wdhjfbqdw_8K_S.bmp
+	bump MI_Modular_Building_4th_Floor_Pillar_Kit_wdhjfbqdw_8K_N.bmp
+
+newmtl MI_Modular_Building_Roof_Kit_wdhkcccdw_8K
+	map_Kd MI_Modular_Building_Roof_Kit_wdhkcccdw_8K_D.bmp
+	map_Ks MI_Modular_Building_Roof_Kit_wdhkcccdw_8K_S.bmp
+	bump MI_Modular_Building_Roof_Kit_wdhkcccdw_8K_N.bmp
+
+newmtl MI_Modular_Building_4th_Floor_Trim_Kit_wdhjfcxdw_8K
+	map_Kd MI_Modular_Building_4th_Floor_Trim_Kit_wdhjfcxdw_8K_D.bmp
+	map_Ks MI_Modular_Building_4th_Floor_Trim_Kit_wdhjfcxdw_8K_S.bmp
+	bump MI_Modular_Building_4th_Floor_Trim_Kit_wdhjfcxdw_8K_N.bmp
+
+newmtl MI_Modular_Building_Door_wdhtajodw_8K
+	map_Kd MI_Modular_Building_Door_wdhtajodw_8K_D.bmp
+	map_Ks MI_Modular_Building_Door_wdhtajodw_8K_S.bmp
+	bump MI_Modular_Building_Door_wdhtajodw_8K_N.bmp
+
+newmtl MI_Modular_Building_Base_Wall_Kit_wdetchodw_8K
+	map_Kd MI_Modular_Building_Base_Wall_Kit_wdetchodw_8K_D.bmp
+	map_Ks MI_Modular_Building_Base_Wall_Kit_wdetchodw_8K_S.bmp
+	bump MI_Modular_Building_Base_Wall_Kit_wdetchodw_8K_N.bmp
+
+newmtl MI_Modular_Building_Roof_Window_wdetbiodw_8K
+	map_Kd MI_Modular_Building_Roof_Window_wdetbiodw_8K_D.bmp
+	map_Ks MI_Modular_Building_Roof_Window_wdetbiodw_8K_S.bmp
+	bump MI_Modular_Building_Roof_Window_wdetbiodw_8K_N.bmp
+
+newmtl MI_Modular_Building_Window_wdhtaibdw_8K
+	map_Kd MI_Modular_Building_Window_wdhtaibdw_8K_D.bmp
+	map_Ks MI_Modular_Building_Window_wdhtaibdw_8K_S.bmp
+	bump MI_Modular_Building_Window_wdhtaibdw_8K_N.bmp
+
