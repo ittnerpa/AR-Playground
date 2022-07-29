@@ -7,7 +7,7 @@
 <script>
     THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
 </script>
-<a-scene embedded arjs>
+<a-scene embedded arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;">
     <a-marker preset="hiro">
         <!--<a-entity obj-model="./assets/Testexport2.obj" ></a-entity>-->
         <a-entity gltf-model="./assets/Saeule/S�uleOhneNanite.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" animation-mixer/>
@@ -17,7 +17,7 @@
 <!--        <a-entity obj-model="./assets/Testexport2.obj" ></a-entity>-->
 
     </a-marker>
-    <a-entity camera></a-entity>
+    <!-- <a-entity camera></a-entity>                    -->
 </a-scene>
 </body>
 </html>
