@@ -1,0 +1,175 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.0.0 glTF Exporter 1.3.0"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 72498,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 12485,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.572878778, -0.0162633229, -0.0266779605 ],
+			"max": [ 0.587121248, 3.02134871, 0.57025218 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 12485,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 12485,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 12485,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SaeuleOhneNanite.bin",
+			"byteLength": 744276
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 144996,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 149820,
+			"byteOffset": 144996,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 149820,
+			"byteOffset": 294816,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 199760,
+			"byteOffset": 444636,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 99880,
+			"byteOffset": 644396,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Castle_Column_scohv_4K_BaseColor.png"
+		},
+		{
+			"uri": "MI_Castle_Column_scohv_4K_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Castle_Column_scohv_4K_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Castle_Column_scohv_4K",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "S_Castle_Column_scohv_lod0",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "StaticMeshActor_4_StaticMeshComponent0",
+			"translation": [ -1.29999995, 0.199999988, -4.5999999 ],
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"name": "MI_Castle_Column_scohv_4K_BaseColor",
+			"minFilter": 9985,
+			"magFilter": 9729
+		},
+		{
+			"name": "MI_Castle_Column_scohv_4K_MetallicRoughness",
+			"minFilter": 9985,
+			"magFilter": 9729
+		},
+		{
+			"name": "MI_Castle_Column_scohv_4K_Normal",
+			"minFilter": 9985,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"name": "Main",
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Castle_Column_scohv_4K_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Castle_Column_scohv_4K_MetallicRoughness",
+			"sampler": 1,
+			"source": 1
+		},
+		{
+			"name": "MI_Castle_Column_scohv_4K_Normal",
+			"sampler": 2,
+			"source": 2
+		}
+	]
+}
